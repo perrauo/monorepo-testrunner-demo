@@ -1,0 +1,14 @@
+{
+    "name": "monorepo-testrunner-demo-package-a",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "devDependencies": {
+      "mocha": "^9.0.0"
+    },
+    "dependencies": {
+      "monorepo-testrunner-demo-package-b": "1.0.0"
+    }
+  }
